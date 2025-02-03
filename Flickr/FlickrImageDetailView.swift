@@ -20,7 +20,7 @@ struct FlickrImageDetailView: View {
                 ProgressView()
             }
             .accessibilityLabel("Image is titled \(image.title)")
-
+            .accessibilityHint("There is an image here.")
             
             Text(image.title)
                 .font(.headline)
